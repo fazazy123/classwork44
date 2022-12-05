@@ -1,0 +1,61 @@
+article,
+ aside,
+  header,
+  footer,
+  section, 
+  nav,
+  figure{
+    display: block;
+  }
+  header,
+  section,
+  aside{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 800px;
+    border: 3px double #800000;
+    margin: 2em auto;
+  }
+  header{
+    border-bottom: 3px double #800000;
+    padding: 15px 15px;
+    background-image: -webkit-linear-gradient(30deg,pink 65%, white 50%, pink 65%
+    );
+    background-image: -moz-linear-gradient(30deg,pink 65%, white 50%, pink 65%);
+    background-image: -IE-linear-gradient(30deg,pink 65%, white 50%, pink 65%);
+  }
+  header img{
+    float: left;
+    padding: 15px;
+  }
+  section{
+    float: left;
+    width: 450px;
+    padding-left:15px ;
+    text-align: justify;
+    
+  }
+  section img{
+    float: left;
+    padding: 5px 5px 0 0;
+    
+  
+
+  }
+  aside{
+    float: right;
+    width: 250px;
+    
+  }
+  
+  footer{
+    clear: both;
+    background-color: #800000;
+    padding: 0.3px 0.3px;
+    color: white;
+    text-align: center;
+  }
+  
+  
